@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["@Title"] = "Raymond";
+}
+
+<style>
+    .blocks{
+        width:33%;
+        float:left;
+        text-align:center;
+        margin-top:20px;
+    }
+    button{
+        padding:10px;
+        background-color:yellowgreen;
+        border:1px solid green;
+    }
+    .drops{
+        border:1px solid white;
+        color:white;
+        padding:10px;
+        margin-left:10px;
+    }
+    .arrows{
+        color:white;
+        padding:10px;
+        background-color:yellowgreen;
+        text-decoration:none;
+        margin-left:20px;
+    }
+    img{
+        height:200px;
+        width:324px;
+    }
+</style>
+
+
+<div style="background-color:LightSeaGreen;padding:20px">
+    <span class="drops">
+        <select onchange="pa(this.value)">
+            <option disabled selected>BRAND</option>
+            <option value="./Laopala">LA'OPALA</option>
+            <option value="./Raymond">RAYMOND</option>
+        </select>
+        <script>
+            function pa(src)
+            {
+                window.location=src;
+            }
+        </script>
+    </span>
+    <span class="drops">
+        <select onchange="la(this.value)">
+            <option disabled selected>TYPE</option>
+            <option value="./Mugs">Mugs</option>
+            <option value="./Tshirts">T-SHIRT</option>
+        </select>
+        <script>
+            function la(src)
+            {
+                window.location=src;
+            }
+        </script>
+    </span>
+    <a href="./Second" class="arrows">&lt;</a>
+</div>
+<p style="text-align:center;"> Raymond </p>
+
+
+<div class="blocks">
+<img src="~/images/mug1.jpg"/>
+<p>Raymond: Hustle Mug - 300Rs/-</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="blocks">
+<img src="~/images/mug2.jpg"/>
+<p>Raymond: Black Mug - 200Rs/-</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="blocks">
+<img src="~/images/mug3.jpg"/>
+<p>Raymond: Fuel Mug - 400Rs/-</p>
+<button>Add to Cart</button>
+</div>
+
+<div><br /></div>
+
+<div class="blocks" style="margin-top:20px;">
+<img src="~/images/tshirt4.jpg"/>
+<p>Raymond: White T-shirt - 450Rs/-</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="blocks" style="margin-top:20px;">
+<img src="~/images/tshirt5.jpg"/>
+<p>Raymond: Black T-shirt - 550Rs/-</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="blocks" style="margin-top:20px;">
+<img src="~/images/tshirt6.jpg"/>
+<p>Raymond: T-shirt - 300Rs/-</p>
+<button>Add to Cart</button>
+</div>

@@ -1,0 +1,21 @@
+﻿@model ADO.NET_Core_L1_Hands_On.Models.Country
+@{
+    ViewData["@Title"]="Home page";
+}
+<p style="text-align:center;">page 1 of 3</p>
+
+<div style="text-align:center">
+    <br />
+    <br />
+    <h2>Please pick your country</h2>
+
+    <select>
+         @foreach(var item in Model.names)
+        {
+            <option>@item</option>
+        }
+    </select>
+    <br />
+    <br />
+    <a href="./Home/Second" style="text-decoration:none; border:1px solid black; padding:5px;">Next</a>
+</div>

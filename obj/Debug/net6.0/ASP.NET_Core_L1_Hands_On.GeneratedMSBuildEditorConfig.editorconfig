@@ -1,0 +1,44 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ASP.NET_Core_L1_Hands_On
+build_property.RootNamespace = ASP.NET_Core_L1_Hands_On
+build_property.ProjectDir = E:\ADO.NET_Core_L1_Hands_On\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\ADO.NET_Core_L1_Hands_On
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/ADO.NET_Core_L1_Hands_On/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ADO.NET_Core_L1_Hands_On/Views/Home/Laopala.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMYW9wYWxhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ADO.NET_Core_L1_Hands_On/Views/Home/Mugs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ADO.NET_Core_L1_Hands_On/Views/Home/Raymond.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYXltb25kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ADO.NET_Core_L1_Hands_On/Views/Home/Second.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWNvbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ADO.NET_Core_L1_Hands_On/Views/Home/Third.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGlyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ADO.NET_Core_L1_Hands_On/Views/Home/Tshirts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUc2hpcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
